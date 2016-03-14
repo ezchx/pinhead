@@ -1,0 +1,94 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="pinhead.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="pinhead.js"></script>
+    <script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+    <script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+    <title>PinHead</title>
+  </head>
+
+  <body>
+   
+    
+    <div class="row banner">
+      <div class="col-md-7">
+        <div class="logo" id="homeButton">PinHead</div>
+        <div class="menu" id="allPinsButton">All Pins</div>
+        <div class="menu" id="myPinsButton">My Pins</div>
+      </div>
+      <div class="col-md-5 righty">
+        <div class="menu" id="loginButton"><a href="login.php?login=yes"><img src="http://ezchx.com/twitteroauth/sign-in-with-twitter-gray.png" /></a></div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <p id="debug"></p>
+      </div>
+    </div>   
+
+    <div id="allPins">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12"><div class="titles">All Pins</div></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 centery">
+            <div id="allPinsHtml"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+    <div id="myPins">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12"><div class="titles">My Pins</div></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 centery">
+            <div id="pinsHtml"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="userPins">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12"><div class="titles" id="userTitle">User Pins</div></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 centery">
+            <div id="userPinsHtml"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+   
+
+    <div class="container footer">
+      <div class="row">2016 
+        <a href="https://twitter.com/ezchx" target="_blank" class="footerLink">@ezchx</a>
+      </div>
+    </div>
+    
+  </body>
+
+</html>

@@ -1,0 +1,192 @@
+html {
+  overflow-y: scroll;
+}
+
+.banner {
+  background-color: #4393B9;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #FFFFFF; 
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.menu {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.menu:hover, #loginButton {
+  cursor: pointer;
+  color: #000000;
+}
+
+.righty {
+  text-align: right;
+}
+
+.centery {
+  text-align: center;
+}
+
+.updateBox {
+  padding-left: 5px;
+  margin-bottom: 35px;
+  margin-right: 10px;
+}
+
+.images {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.middle_head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main_text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.titles {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.buttony {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.pinButton {
+  margin-top: 10px;
+}
+
+.usery {
+  color: #4285F4;
+}
+
+
+.usery:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.pins {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+}
+
+.delIcon, {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+#errorMsg {
+  color: #FF0000;
+}
+
+.spacey {
+  margin-right: 50px;
+}
+
+.footer {
+  border-top: solid 1px #c0c0c0;
+  text-align: center;
+  font-size: 16px;
+  color: #808080;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footerLink {
+  color: #808080;
+}
+
+
+.grid {
+  background: #DDD;
+  max-width: 1340px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 200px;
+  margin: 10px;
+}
+
+.grid-item {
+  float: center;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.parent {
+  position: relative;
+}
+
+.child1 {
+  z-index: 100;
+  border-radius: 15px;
+}
+
+.child2 {
+  position: absolute;
+  z-index: 110;
+  left: 170px;
+  top: 5px;
+}
+
+.child2:hover {
+  cursor: pointer;
+}
